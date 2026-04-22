@@ -1,0 +1,38 @@
+# === Compiled C++ / Python extensions ===
+*.so
+*.o
+*.a
+build/
+cpp/build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Generated density data (large binary files) ===
+density/densities/
+density/summaries/
+
+# === Tune results ===
+tune/rms_tunes/
+
+# === Price data / cache ===
+data/cache/
+data/raw/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# === Strategy results ===
+strategy/results/
+
+# === Plots ===
+**/*.png
+**/*.pdf
+
+# === Logs / misc ===
+*.log
+*.tmp
+.DS_Store
+.env

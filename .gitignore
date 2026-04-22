@@ -1,0 +1,15 @@
+data/cache/
+data/cache/
+tools/data/ticker_lists/r2000_*.csv
+tools/data/ticker_lists/russell2000*.csv
+tools/data/ticker_lists/sp500_financials.csv
+__pycache__/
+*.pyc
+*.pyo
+strategy/grids/*.json
+*.so
+*.o
+build/
+*.so
+*.o
+build/
